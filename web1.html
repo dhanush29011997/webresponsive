@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> responsive page</title>
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links"> 
+            <li class="active"><a href="#"></a>home</li>
+            <li><a href="#"> </a>tour</li>
+            <li><a href="#"> </a>explore</li>
+            <li><a href="#"> </a>about</li>
+            <li class = "ctn"><a href="#"> </a>Contact</li>
+        </ul>
+        <img src="menu-btn.png" alt=""  class="menu-btn"/>
+
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>
+                Explore The colorful world</h2>
+                <div class = "line"></div>
+                <h1>A Wonderful Gift</h1>
+                <a href="#" class="ctn">learn more </a>
+        </div>
+    </header>
+    <section class="events">
+        <div class="title">
+            <h1>upcoming events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="img1.png" alt=""/>
+                <h4>everest camp trek</h4>
+                <p>
+                    Mount Everest is Earth's highest mountain above sea level, 
+                </p>
+                <a href = "#" class="ctn">learn more</a>
+            </div>
+            <div class="col">
+                <img src="img2.png" alt=""/>
+                <h4>walking in holiday</h4>
+                <p>
+                    Mount Everest is Earth's highest mountain above sea level,   
+                </p>
+                <a href="#" class="ctn">learn more</a>
+            </div>
+        </div>
+        </section>
+        <section class="explore">
+            <div class="explore-content">
+                <h1>explore the world</h1>
+                <div class="line"></div>
+                <p> Mount Everest is Earth's highest mountain above sea level, </p>
+                <a href="#" class="ctn">learn more</a>
+
+            </div>
+        </section>
+        <section class="tours">
+            <div class="row">
+                <div class="col">
+                    <h1>
+                        Upcoming tours& destination
+                    </h1>
+                    <p>
+                        Mount Everest is Earth's highest mountain above sea level,  Mount Everest is Earth's highest mountain above sea level,</p>
+                        <a href="#" class="ctn">learn more</a>
+                </div>
+                <div class="col"></div>
+                <div class="image-gallery">
+                    <img src="img3.png" alt="">
+                    <img src="img4.png" alt="">
+                    <img src="img5.png" alt="">
+                    <img src="img6.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+            <h3>adress</h3>
+            <p>
+                1st main road kamakshipalya bangalore-560079
+                phno:9538847303 emial:contact@gmail.com
+            </p>
+        </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+
+</body>
+</html>
+
